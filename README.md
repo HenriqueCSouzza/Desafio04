@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- [About](#about)
+- [Sobre](#Sobre)
 - [Getting Started](#getting_started)
 
-## About <a name = "about"></a>
+## Sobre <a name = "Sobre"></a>
 
 Desafio proposto pelo bootcamp, para fixação do conteudo
 
