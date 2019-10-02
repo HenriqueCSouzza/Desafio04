@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack-dev-Server --mode development"
+    "dev": "webpack-dev-Server --mode development",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -24,6 +26,7 @@
     "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
-    "react-dom": "^16.10.1"
+    "react-dom": "^16.10.1",
+    "react-scripts": "^3.1.2"
   }
 }
